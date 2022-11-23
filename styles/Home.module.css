@@ -56,37 +56,3 @@
 .HomeBuyButton:hover {
   background-color: #4c964c;
 }
-
-.HomeAboutEventTitle {
-  width: 100%;
-  text-align: center;
-  margin: 5rem 0;
-  font-size: 3rem;
-  color: #102996;
-  font-weight: 600;
-}
-
-.HomeSwiperContainer {
-  margin-bottom: 3rem;
-}
-
-.HomeSwiper {
-  width: 100%;
-}
-
-.HomeSwiperSlide {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-
-.HomeAboutEventContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  max-width: 120.4rem;
-  margin-bottom: 3rem;
-}
