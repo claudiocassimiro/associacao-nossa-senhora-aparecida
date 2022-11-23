@@ -1,0 +1,89 @@
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.HomeAssociationLogoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.HomeHeroContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 5rem 1.5rem;
+  background: #00d4ff;
+  background: linear-gradient(90deg, #00d4ff 0%, #00669d 100%);
+}
+
+.HomeHeroTitle {
+  width: 70%;
+  text-align: center;
+  font-weight: 500;
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.HomeBuyButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: 70%;
+  max-width: 80.4rem;
+  height: 5.8rem;
+  background-color: #5cb85c;
+  border: none;
+  border-radius: 0.8rem;
+  color: #fff;
+  font-size: 1.8rem;
+  transition: 0.3s;
+}
+
+.HomeBuyButton:hover {
+  background-color: #4c964c;
+}
+
+.HomeAboutUsContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 120.4rem;
+}
+
+.HomeAboutUsTitle {
+  width: 100%;
+  text-align: center;
+  margin: 8rem 0;
+  font-size: 3rem;
+  color: #102996;
+  font-weight: 600;
+}
+
+.HomeSwiperContainer {
+  margin-bottom: 3rem;
+}
+
+.HomeSwiper {
+  width: 100%;
+}
+
+.HomeSwiperSlide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
