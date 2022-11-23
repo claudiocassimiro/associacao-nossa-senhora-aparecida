@@ -57,7 +57,7 @@ export default function SwiperAboutUs() {
               height={handleImageSize().height}
             />
           </SwiperSlide>
-          <SwiperSlide className={styles.HomeSwiperSlide}>
+          <SwiperSlide className={styles.SwiperSwiperSlide}>
             <Image
               src="/images/imagens-evento-6.jpeg"
               alt="Imagens do ultimo evento acontecido"
@@ -65,7 +65,7 @@ export default function SwiperAboutUs() {
               height={handleImageSize().height}
             />
           </SwiperSlide>
-          <SwiperSlide className={styles.HomeSwiperSlide}>
+          <SwiperSlide className={styles.SwiperSwiperSlide}>
             <Image
               src="/images/imagens-evento-7.jpeg"
               alt="Imagens do ultimo evento acontecido"
@@ -73,7 +73,7 @@ export default function SwiperAboutUs() {
               height={handleImageSize().height}
             />
           </SwiperSlide>
-          <SwiperSlide className={styles.HomeSwiperSlide}>
+          <SwiperSlide className={styles.SwiperSwiperSlide}>
             <Image
               src="/images/imagens-evento-8.jpeg"
               alt="Imagens do ultimo evento acontecido"
