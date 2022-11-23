@@ -1,38 +1,12 @@
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import { useWindowSize } from "../utils/helpers";
-import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/navigation";
-
-// import required modules
-import { Navigation } from "swiper";
+import { handleImageSize } from "../utils/helpers";
+import SwiperAboutUs from "../components/SwiperAboutUs";
 
 export default function Home() {
-  const { isDesktop, isTablet } = useWindowSize();
+  const { isDesktop } = useWindowSize();
 
-  const handleImageSize = () => {
-    if (isDesktop) {
-      return {
-        width: 1020,
-        height: 660,
-      };
-    }
-
-    if (isTablet) {
-      return {
-        width: 760,
-        height: 600,
-      };
-    }
-
-    return {
-      width: 320,
-      height: 240,
-    };
-  };
   return (
     <div className={styles.container}>
       <main className={styles.main}>
@@ -57,80 +31,24 @@ export default function Home() {
             Compre aqui sua Cartela!
           </a>
         </div>
-        <div className={styles.HomeAboutUsContainer}>
-          <h2 className={styles.HomeAboutUsTitle}>Nossas Ações</h2>
-          <div className={styles.HomeSwiperContainer}>
-            <Swiper
-              navigation={true}
-              modules={[Navigation]}
-              className={styles.HomeSwiper}
-            >
-              <SwiperSlide className={styles.HomeSwiperSlide}>
-                <Image
-                  src="/images/imagens-evento-1.jpeg"
-                  alt="Imagens do ultimo evento acontecido"
-                  width={handleImageSize().width}
-                  height={handleImageSize().height}
-                />
-              </SwiperSlide>
-              <SwiperSlide className={styles.HomeSwiperSlide}>
-                <Image
-                  src="/images/imagens-evento-2.jpeg"
-                  alt="Imagens do ultimo evento acontecido"
-                  width={handleImageSize().width}
-                  height={handleImageSize().height}
-                />
-              </SwiperSlide>
-              <SwiperSlide className={styles.HomeSwiperSlide}>
-                <Image
-                  src="/images/imagens-evento-3.jpeg"
-                  alt="Imagens do ultimo evento acontecido"
-                  width={handleImageSize().width}
-                  height={handleImageSize().height}
-                />
-              </SwiperSlide>
-              <SwiperSlide className={styles.HomeSwiperSlide}>
-                <Image
-                  src="/images/imagens-evento-4.jpeg"
-                  alt="Imagens do ultimo evento acontecido"
-                  width={handleImageSize().width}
-                  height={handleImageSize().height}
-                />
-              </SwiperSlide>
-              <SwiperSlide className={styles.HomeSwiperSlide}>
-                <Image
-                  src="/images/imagens-evento-5.jpeg"
-                  alt="Imagens do ultimo evento acontecido"
-                  width={handleImageSize().width}
-                  height={handleImageSize().height}
-                />
-              </SwiperSlide>
-              <SwiperSlide className={styles.HomeSwiperSlide}>
-                <Image
-                  src="/images/imagens-evento-6.jpeg"
-                  alt="Imagens do ultimo evento acontecido"
-                  width={handleImageSize().width}
-                  height={handleImageSize().height}
-                />
-              </SwiperSlide>
-              <SwiperSlide className={styles.HomeSwiperSlide}>
-                <Image
-                  src="/images/imagens-evento-7.jpeg"
-                  alt="Imagens do ultimo evento acontecido"
-                  width={handleImageSize().width}
-                  height={handleImageSize().height}
-                />
-              </SwiperSlide>
-              <SwiperSlide className={styles.HomeSwiperSlide}>
-                <Image
-                  src="/images/imagens-evento-8.jpeg"
-                  alt="Imagens do ultimo evento acontecido"
-                  width={handleImageSize().width}
-                  height={handleImageSize().height}
-                />
-              </SwiperSlide>
-            </Swiper>
-          </div>
+        <SwiperAboutUs />
+        <a
+          href="https://bola10solidario.com/comprar"
+          target="_blanc"
+          title="Compre sua Cartela"
+          className={styles.HomeBuyButton}
+        >
+          Compre aqui sua Cartela!
+        </a>
+        <div className={styles.HomeAboutEventContainer}>
+          <h2 className={styles.HomeAboutEventTitle}>Sobre o Evento</h2>
+          <video
+            src="https://associacao.servicoscartorarios.com.br/wp-content/uploads/2022/10/IMG_3452.mov"
+            controls
+            controlsList="nodownload"
+            width={handleImageSize().width}
+            height={handleImageSize().height}
+          />
         </div>
         <a
           href="https://bola10solidario.com/comprar"
