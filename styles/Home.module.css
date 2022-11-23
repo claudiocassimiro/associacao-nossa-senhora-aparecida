@@ -57,22 +57,6 @@
   background-color: #4c964c;
 }
 
-.HomeAboutUsContainer {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  max-width: 120.4rem;
-}
-
-.HomeAboutUsTitle {
-  width: 100%;
-  text-align: center;
-  margin: 8rem 0;
-  font-size: 3rem;
-  color: #102996;
-  font-weight: 600;
-}
-
 .HomeSwiperContainer {
   margin-bottom: 3rem;
 }
@@ -86,4 +70,14 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+}
+
+.HomeAboutEventContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 120.4rem;
+  margin-bottom: 3rem;
 }
