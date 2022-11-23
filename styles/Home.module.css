@@ -36,3 +36,34 @@
   color: #fff;
   margin-bottom: 2rem;
 }
+
+.HomeContainerMoreInfos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem 0;
+}
+
+.HomeContainerInfos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.HomeContainerIconAndText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 0.8rem;
+}
+
+.HomeInfoText {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-left: 1.5rem;
+}
