@@ -3,6 +3,8 @@ import styles from "../styles/Home.module.css";
 import { useWindowSize } from "../utils/helpers";
 import SwiperAboutUs from "../components/SwiperAboutUs";
 import AboutEvent from "../components/AboutEvent";
+import SwiperBingoPrize from "../components/SwiperBingoPrize";
+import BuyYourCardButton from "../components/BuyYourCardButton";
 
 export default function Home() {
   const { isDesktop } = useWindowSize();
@@ -22,33 +24,14 @@ export default function Home() {
           <h1 className={styles.HomeHeroTitle}>
             Venha Participar do Nosso Bingo Beneficente!
           </h1>
-          <a
-            href="https://bola10solidario.com/comprar"
-            target="_blanc"
-            title="Compre sua Cartela"
-            className={styles.HomeBuyButton}
-          >
-            Compre aqui sua Cartela!
-          </a>
+          <BuyYourCardButton />
         </div>
         <SwiperAboutUs />
-        <a
-          href="https://bola10solidario.com/comprar"
-          target="_blanc"
-          title="Compre sua Cartela"
-          className={styles.HomeBuyButton}
-        >
-          Compre aqui sua Cartela!
-        </a>
+        <BuyYourCardButton />
         <AboutEvent />
-        <a
-          href="https://bola10solidario.com/comprar"
-          target="_blanc"
-          title="Compre sua Cartela"
-          className={styles.HomeBuyButton}
-        >
-          Compre aqui sua Cartela!
-        </a>
+        <BuyYourCardButton />
+        <SwiperBingoPrize />
+        <BuyYourCardButton />
       </main>
 
       <footer className={styles.footer}>
