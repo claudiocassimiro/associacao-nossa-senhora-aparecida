@@ -1,0 +1,19 @@
+.BuyYourCardButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: 70%;
+  max-width: 80.4rem;
+  height: 5.8rem;
+  background-color: #5cb85c;
+  border: none;
+  border-radius: 0.8rem;
+  color: #fff;
+  font-size: 1.8rem;
+  transition: 0.3s;
+}
+
+.BuyYourCardButton:hover {
+  background-color: #4c964c;
+}
