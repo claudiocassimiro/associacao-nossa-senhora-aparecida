@@ -16,16 +16,6 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <title>
-            Associação Nossa Senhora Aparecida - Venha Participar Do Nosso Bingo
-            Beneficente!
-          </title>
-          <meta
-            name="description"
-            content="Associação para fins Beneficentes"
-          />
-          <link rel="icon" href="/favicon.ico" />
-
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link
