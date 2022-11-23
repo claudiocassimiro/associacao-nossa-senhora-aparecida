@@ -5,12 +5,21 @@ import SwiperAboutUs from "../components/SwiperAboutUs";
 import AboutEvent from "../components/AboutEvent";
 import SwiperBingoPrize from "../components/SwiperBingoPrize";
 import BuyYourCardButton from "../components/BuyYourCardButton";
+import Head from "next/head";
 
 export default function Home() {
   const { isDesktop } = useWindowSize();
 
   return (
     <div className={styles.container}>
+      <Head>
+        <title>
+          Associação Nossa Senhora Aparecida - Venha Participar Do Nosso Bingo
+          Beneficente!
+        </title>
+        <meta name="description" content="Associação para fins Beneficentes" />
+        <link rel="icon" href="/favicon.png" />
+      </Head>
       <main className={styles.main}>
         <div className={styles.HomeAssociationLogoContainer}>
           <Image
