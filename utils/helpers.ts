@@ -27,3 +27,24 @@ export const useWindowSize = () => {
   }, []);
   return windowSize;
 };
+
+export const handleImageSize = () => {
+  if (useWindowSize().isDesktop) {
+    return {
+      width: 1020,
+      height: 660,
+    };
+  }
+
+  if (useWindowSize().isTablet) {
+    return {
+      width: 760,
+      height: 600,
+    };
+  }
+
+  return {
+    width: 320,
+    height: 240,
+  };
+};
