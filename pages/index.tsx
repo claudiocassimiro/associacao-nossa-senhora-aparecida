@@ -76,7 +76,7 @@ export default function Home() {
             </span>
             <span className={styles.HomeContainerIconAndText}>
               <FaPhoneAlt size="15" />
-              <p className={styles.HomeInfoText}>(81) 81- 99177-5580</p>
+              <p className={styles.HomeInfoText}>(81) 99177-5580</p>
             </span>
           </div>
         </div>
