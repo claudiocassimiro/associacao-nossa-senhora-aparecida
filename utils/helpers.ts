@@ -29,14 +29,16 @@ export const useWindowSize = () => {
 };
 
 export const handleImageSize = () => {
-  if (useWindowSize().isDesktop) {
+  const { isDesktop, isTablet } = useWindowSize();
+
+  if (isDesktop) {
     return {
       width: 1020,
       height: 660,
     };
   }
 
-  if (useWindowSize().isTablet) {
+  if (isTablet) {
     return {
       width: 760,
       height: 600,
