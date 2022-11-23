@@ -57,6 +57,15 @@
   background-color: #4c964c;
 }
 
+.HomeAboutEventTitle {
+  width: 100%;
+  text-align: center;
+  margin: 5rem 0;
+  font-size: 3rem;
+  color: #102996;
+  font-weight: 600;
+}
+
 .HomeSwiperContainer {
   margin-bottom: 3rem;
 }
