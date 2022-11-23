@@ -1,8 +1,8 @@
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import { useWindowSize } from "../utils/helpers";
-import { handleImageSize } from "../utils/helpers";
 import SwiperAboutUs from "../components/SwiperAboutUs";
+import AboutEvent from "../components/AboutEvent";
 
 export default function Home() {
   const { isDesktop } = useWindowSize();
@@ -40,16 +40,7 @@ export default function Home() {
         >
           Compre aqui sua Cartela!
         </a>
-        <div className={styles.HomeAboutEventContainer}>
-          <h2 className={styles.HomeAboutEventTitle}>Sobre o Evento</h2>
-          <video
-            src="https://associacao.servicoscartorarios.com.br/wp-content/uploads/2022/10/IMG_3452.mov"
-            controls
-            controlsList="nodownload"
-            width={handleImageSize().width}
-            height={handleImageSize().height}
-          />
-        </div>
+        <AboutEvent />
         <a
           href="https://bola10solidario.com/comprar"
           target="_blanc"
