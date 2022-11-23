@@ -1,0 +1,19 @@
+.HomeAboutEventContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 120.4rem;
+  margin-bottom: 3rem;
+}
+
+.HomeAboutEventTitle {
+  width: 100%;
+  text-align: center;
+  margin: 5rem 0;
+  margin-top: 8rem;
+  font-size: 3rem;
+  color: #102996;
+  font-weight: 600;
+}
