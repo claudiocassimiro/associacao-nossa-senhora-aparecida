@@ -10,6 +10,7 @@ import { GiPartyPopper } from "react-icons/gi";
 import { GrStatusGood } from "react-icons/gr";
 import { FaChild, FaPhoneAlt } from "react-icons/fa";
 import { HiLocationMarker } from "react-icons/hi";
+import AboutUs from "../components/AboutUs";
 
 export default function Home() {
   const { isDesktop } = useWindowSize();
@@ -39,6 +40,7 @@ export default function Home() {
           </h1>
           <BuyYourCardButton />
         </div>
+        <AboutUs />
         <SwiperAboutUs />
         <BuyYourCardButton />
         <AboutEvent />
