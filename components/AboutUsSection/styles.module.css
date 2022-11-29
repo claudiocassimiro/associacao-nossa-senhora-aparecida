@@ -4,6 +4,8 @@
   align-items: center;
   width: 100%;
   max-width: 120.4rem;
+  padding: 0 2rem;
+  margin-bottom: 5rem;
 }
 
 .AboutUsTitle {
