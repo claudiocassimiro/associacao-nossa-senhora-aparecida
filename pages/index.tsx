@@ -10,10 +10,11 @@ import { GiPartyPopper } from "react-icons/gi";
 import { GrStatusGood } from "react-icons/gr";
 import { FaChild, FaPhoneAlt } from "react-icons/fa";
 import { HiLocationMarker } from "react-icons/hi";
-import AboutUs from "../components/AboutUs";
+import { useRouter } from "next/router";
 
 export default function Home() {
   const { isDesktop } = useWindowSize();
+  const router = useRouter();
 
   return (
     <div className={styles.container}>
@@ -40,14 +41,12 @@ export default function Home() {
           </h1>
           <BuyYourCardButton />
         </div>
-        <AboutUs />
         <SwiperAboutUs />
         <BuyYourCardButton />
         <AboutEvent />
         <BuyYourCardButton />
         <SwiperBingoPrize />
         <BuyYourCardButton />
-
         <div className={styles.HomeContainerMoreInfos}>
           <Image
             src="/images/logo-associacao-768x282.png"
@@ -55,38 +54,46 @@ export default function Home() {
             width={260}
             height={120}
           />
-          <div className={styles.HomeContainerInfos}>
-            <span className={styles.HomeContainerIconAndText}>
-              <GiPartyPopper size="20" />
-              <p className={styles.HomeInfoText}>
-                Venha fazer parte da nossa festa!
-              </p>
-            </span>
-            <span className={styles.HomeContainerIconAndText}>
-              <GrStatusGood size="20" />
-              <p className={styles.HomeInfoText}>Bingo Beneficente</p>
-            </span>
-            <span className={styles.HomeContainerIconAndText}>
-              <FaChild size="20" />
-              <p className={styles.HomeInfoText}>
-                Festa das Crianças e Natal Solidário
-              </p>
-            </span>
-            <span className={styles.HomeContainerIconAndText}>
-              <HiLocationMarker size="20" />
-              <p className={styles.HomeInfoText}>Chácara do Gaúcho</p>
-            </span>
-            <span className={styles.HomeContainerIconAndText}>
-              <FaPhoneAlt size="15" />
-              <p className={styles.HomeInfoText}>(81) 99177-5580</p>
-            </span>
-          </div>
+        </div>
+        <div className={styles.HomeContainerInfos}>
+          <span className={styles.HomeContainerIconAndText}>
+            <GiPartyPopper size="20" />
+            <p className={styles.HomeInfoText}>
+              Venha fazer parte da nossa festa!
+            </p>
+          </span>
+          <span className={styles.HomeContainerIconAndText}>
+            <GrStatusGood size="20" />
+            <p className={styles.HomeInfoText}>Bingo Beneficente</p>
+          </span>
+          <span className={styles.HomeContainerIconAndText}>
+            <FaChild size="20" />
+            <p className={styles.HomeInfoText}>
+              Festa das Crianças e Natal Solidário
+            </p>
+          </span>
+          <span className={styles.HomeContainerIconAndText}>
+            <HiLocationMarker size="20" />
+            <p className={styles.HomeInfoText}>Chácara do Gaúcho</p>
+          </span>
+          <span className={styles.HomeContainerIconAndText}>
+            <FaPhoneAlt size="15" />
+            <p className={styles.HomeInfoText}>(81) 99177-5580</p>
+          </span>
         </div>
       </main>
 
-      {/* <footer className={styles.footer}>
-        <h2>Olá footer</h2>
-      </footer> */}
+      <footer className={styles.footer}>
+        <Image
+          src="/images/logo-associacao-768x282.png"
+          alt="logo da associação"
+          width={120}
+          height={50}
+        />
+        <a className={styles.textLink} onClick={() => router.push("/about-us")}>
+          Quem Somos
+        </a>
+      </footer>
     </div>
   );
 }
