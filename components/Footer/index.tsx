@@ -28,7 +28,7 @@ export default function Footer() {
           </a>
           <a
             className={styles.textLink}
-            onClick={() => router.push("/about-us")}
+            onClick={() => router.push("/regulation")}
           >
             Regulamento
           </a>
@@ -50,7 +50,7 @@ export default function Footer() {
           <AiOutlineWhatsApp size="20" />
           <a
             className={styles.socialLink}
-            href="https://www.instagram.com/bola10solidario/?igshid=YmMyMTA2M2Y%3D"
+            href="#"
             target="_blank"
             rel="noreferrer"
           >
@@ -61,7 +61,7 @@ export default function Footer() {
           <AiOutlineFacebook size="20" />
           <a
             className={styles.socialLink}
-            href="https://www.instagram.com/bola10solidario/?igshid=YmMyMTA2M2Y%3D"
+            href="https://pt-br.facebook.com/people/Associa%C3%A7%C3%A3o-Nossa-Senhora-Aparecida/100085310482679/"
             target="_blank"
             rel="noreferrer"
           >
@@ -72,7 +72,7 @@ export default function Footer() {
           <AiOutlineYoutube size="20" />
           <a
             className={styles.socialLink}
-            href="https://www.instagram.com/bola10solidario/?igshid=YmMyMTA2M2Y%3D"
+            href="https://www.youtube.com/@tvportodegalinhas9165"
             target="_blank"
             rel="noreferrer"
           >
