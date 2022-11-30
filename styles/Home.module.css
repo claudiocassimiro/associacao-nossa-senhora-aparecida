@@ -67,21 +67,3 @@
   font-weight: 500;
   margin-left: 1.5rem;
 }
-
-.footer {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 5rem;
-  padding: 3rem;
-  width: 100%;
-  background: #00d4ff;
-  background: linear-gradient(90deg, #00d4ff 0%, #00669d 100%);
-}
-
-.textLink {
-  font-size: 2rem;
-  font-weight: 500;
-  color: #fff;
-  cursor: pointer;
-}
