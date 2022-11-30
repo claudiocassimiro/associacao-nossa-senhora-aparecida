@@ -35,50 +35,42 @@ export default function Footer() {
         </div>
       </div>
       <div className={styles.containerSocialLinks}>
-        <div className={styles.socialContainer}>
+        <a
+          href="https://www.instagram.com/bola10solidario/?igshid=YmMyMTA2M2Y%3D"
+          target="_blank"
+          rel="noreferrer"
+          className={styles.socialContainer}
+        >
           <AiOutlineInstagram size="20" />
-          <a
-            className={styles.socialLink}
-            href="https://www.instagram.com/bola10solidario/?igshid=YmMyMTA2M2Y%3D"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Instagram
-          </a>
-        </div>
-        <div className={styles.socialContainer}>
+          <p className={styles.socialLink}>Instagram</p>
+        </a>
+        <a
+          href="#"
+          target="_blank"
+          rel="noreferrer"
+          className={styles.socialContainer}
+        >
           <AiOutlineWhatsApp size="20" />
-          <a
-            className={styles.socialLink}
-            href="#"
-            target="_blank"
-            rel="noreferrer"
-          >
-            WhatsApp
-          </a>
-        </div>
-        <div className={styles.socialContainer}>
+          <p className={styles.socialLink}>WhatsApp</p>
+        </a>
+        <a
+          href="https://pt-br.facebook.com/people/Associa%C3%A7%C3%A3o-Nossa-Senhora-Aparecida/100085310482679/"
+          target="_blank"
+          rel="noreferrer"
+          className={styles.socialContainer}
+        >
           <AiOutlineFacebook size="20" />
-          <a
-            className={styles.socialLink}
-            href="https://pt-br.facebook.com/people/Associa%C3%A7%C3%A3o-Nossa-Senhora-Aparecida/100085310482679/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Facebook
-          </a>
-        </div>
-        <div className={styles.socialContainer}>
+          <p className={styles.socialLink}>Facebook</p>
+        </a>
+        <a
+          href="https://www.youtube.com/@tvportodegalinhas9165"
+          target="_blank"
+          rel="noreferrer"
+          className={styles.socialContainer}
+        >
           <AiOutlineYoutube size="20" />
-          <a
-            className={styles.socialLink}
-            href="https://www.youtube.com/@tvportodegalinhas9165"
-            target="_blank"
-            rel="noreferrer"
-          >
-            YouTube
-          </a>
-        </div>
+          <p className={styles.socialLink}>YouTube</p>
+        </a>
       </div>
     </footer>
   );
