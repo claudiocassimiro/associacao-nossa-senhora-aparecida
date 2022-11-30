@@ -10,11 +10,10 @@ import { GiPartyPopper } from "react-icons/gi";
 import { GrStatusGood } from "react-icons/gr";
 import { FaChild, FaPhoneAlt } from "react-icons/fa";
 import { HiLocationMarker } from "react-icons/hi";
-import { useRouter } from "next/router";
+import Footer from "../components/Footer";
 
 export default function Home() {
   const { isDesktop } = useWindowSize();
-  const router = useRouter();
 
   return (
     <div className={styles.container}>
@@ -83,17 +82,7 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className={styles.footer}>
-        <Image
-          src="/images/logo-associacao-768x282.png"
-          alt="logo da associação"
-          width={120}
-          height={50}
-        />
-        <a className={styles.textLink} onClick={() => router.push("/about-us")}>
-          Quem Somos
-        </a>
-      </footer>
+      <Footer />
     </div>
   );
 }
