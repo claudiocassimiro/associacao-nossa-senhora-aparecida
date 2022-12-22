@@ -24,12 +24,8 @@ export default function RegulationSection() {
         sua realização, ficando desde já ciente das datas, horários e condições.
       </p>
       <p className={styles.RegulationSectionText}>
-        Vendendo o total das cartelas disponíveis para venda o sorteio será
-        realizado no dia 24 de dezembro 2022, as 16:00hrs, caso isso não ocorra
-        a data final para a realização do sorteio será dia 29 de janeiro de
-        2023, as 16:00hrs, todos que adquiriram suas cartelas serão comunicados
-        nos canais oficiais da Associação, ficará na responsabilidade do
-        comprador a observação do dia exato do evento.
+        O sorteio será realizado no dia 09 de abril 2023, as 16:00hrs na Chácara
+        do Gaúcho
       </p>
       <p className={styles.RegulationSectionText}>
         Escolha sua Cartela: Aqui você tem a opção de quantas cartela quiser! E
@@ -111,7 +107,7 @@ export default function RegulationSection() {
       </p>
       <p className={styles.RegulationSectionAnswerText}>
         Caso tenha qualquer dúvida, estaremos a disposição para esclarecer,
-        Entre em contato conosco por meio de WhatsApp (081)
+        Entre em contato conosco por meio de WhatsApp (081) 97400-2486
       </p>
 
       <h3 className={styles.RegulationSectionSubTitle}>REALIZAÇAO.</h3>
