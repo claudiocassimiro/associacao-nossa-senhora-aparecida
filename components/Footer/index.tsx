@@ -45,7 +45,7 @@ export default function Footer() {
           <p className={styles.socialLink}>Instagram</p>
         </a>
         <a
-          href="#"
+          href={`https://api.whatsapp.com/send?phone=5581974002486&text=Ol%c3%a1%2c%20gostaria%20de%20informa%c3%a7%c3%b5es%20a%20respeito%20do%20bingo!`}
           target="_blank"
           rel="noreferrer"
           className={styles.socialContainer}
@@ -63,7 +63,7 @@ export default function Footer() {
           <p className={styles.socialLink}>Facebook</p>
         </a>
         <a
-          href="https://www.youtube.com/@tvportodegalinhas9165"
+          href="https://www.youtube.com/channel/UCNxEoY00hlrtkmezPDqMJxw"
           target="_blank"
           rel="noreferrer"
           className={styles.socialContainer}
