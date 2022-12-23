@@ -98,3 +98,9 @@
   font-weight: 500;
   margin-left: 1.5rem;
 }
+
+@media (min-width: 1024px) {
+  .HomeMenuButton {
+    display: none;
+  }
+}
