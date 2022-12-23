@@ -8,7 +8,8 @@ export default function RegulationSection() {
         É muito fácil participar!
       </h3>
       <p className={styles.RegulationSectionText}>
-        O sorteio será realizado as 16:00hrs
+        O sorteio será realizado no dia 09 de abril de 2023 as 16:00hrs na
+        chácara do Gaúcho.
       </p>
       <p className={styles.RegulationSectionText}>
         Totalmente na plataforma digital
@@ -32,8 +33,7 @@ export default function RegulationSection() {
         quantos mais selecionar, mais chances de ganhar.
       </p>
       <p className={styles.RegulationSectionText}>
-        Forma de Pagamento: Fácil e seguro com três opções! Você pode pagar via
-        pix, no debito, ou cartão de credito.
+        Forma de Pagamento: Fácil e seguro! Você pode pagar via pix.
       </p>
       <p className={styles.RegulationSectionText}>
         Faça o Pagamento: Agora você já está participando! Além disso, você pode
