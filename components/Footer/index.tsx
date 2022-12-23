@@ -72,6 +72,12 @@ export default function Footer() {
           <p className={styles.socialLink}>YouTube</p>
         </a>
       </div>
+      <div className={styles.containerEnterpriseInfos}>
+        <p>
+          <strong>© 2022 BOLA10 SOLIDÁRIO.</strong>Todos os direitos reservados.
+        </p>
+        <p>CNPJ: 41.585.744/0001-00</p>
+      </div>
     </footer>
   );
 }
