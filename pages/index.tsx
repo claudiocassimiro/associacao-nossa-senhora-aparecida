@@ -133,9 +133,7 @@ export default function Home() {
           </span>
           <span className={styles.HomeContainerIconAndText}>
             <FaChild size="20" />
-            <p className={styles.HomeInfoText}>
-              Festa das Crianças e Natal Solidário
-            </p>
+            <p className={styles.HomeInfoText}>Festa das Crianças 2023</p>
           </span>
           <span className={styles.HomeContainerIconAndText}>
             <HiLocationMarker size="20" />
@@ -143,7 +141,7 @@ export default function Home() {
           </span>
           <span className={styles.HomeContainerIconAndText}>
             <FaPhoneAlt size="15" />
-            <p className={styles.HomeInfoText}>(81) 99177-5580</p>
+            <p className={styles.HomeInfoText}>(81) 97400-2486</p>
           </span>
         </div>
       </main>

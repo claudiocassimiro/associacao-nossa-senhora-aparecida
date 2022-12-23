@@ -74,7 +74,7 @@ export default function Footer() {
       </div>
       <div className={styles.containerEnterpriseInfos}>
         <p>
-          <strong>© 2022 BOLA10 SOLIDÁRIO.</strong>Todos os direitos reservados.
+          <strong>© 2023 BOLA10 SOLIDÁRIO.</strong>Todos os direitos reservados.
         </p>
         <p>CNPJ: 41.585.744/0001-00</p>
       </div>
