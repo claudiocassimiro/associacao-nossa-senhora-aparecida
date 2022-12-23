@@ -63,6 +63,21 @@
   font-size: 1.5rem;
 }
 
+.containerEnterpriseInfos {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.5rem;
+  font-size: 1rem;
+}
+
+@media (min-width: 412px) {
+  .containerEnterpriseInfos {
+    font-size: 1.2rem;
+  }
+}
+
 @media (min-width: 541px) {
   .containerImageAndLinkElements {
     justify-content: space-around;
@@ -74,15 +89,15 @@
 }
 
 @media (min-width: 1024px) {
-  .textLink {
-    text-decoration: none;
-  }
-
   .containerSocialLinks {
     max-width: 166rem;
   }
 
   .socialContainer {
     width: 30rem;
+  }
+
+  .containerEnterpriseInfos {
+    font-size: 1.6rem;
   }
 }
