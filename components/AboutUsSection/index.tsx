@@ -23,8 +23,8 @@ export default function AboutUs() {
         Como a festa cresceu, hoje é quase impossível realizá-la, devido aos
         altos custos com as demandas e quantidades de crianças para atendermos,
         e é por este motivo que estamos realizando este bingo para levantar
-        fundos para o evento. Faça sua parte, contribua com o natal solidário
-        comprando a sua cartela.
+        fundos para o evento. Faça sua parte, contribua com esse evento
+        solidário comprando a sua cartela.
       </p>
     </div>
   );
