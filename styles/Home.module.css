@@ -11,10 +11,41 @@
 }
 
 .HomeAssociationLogoContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+}
+
+.HomeMenuButton {
+  margin-top: 0.5rem;
+  align-self: flex-start;
+}
+
+.HomeMenu {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  background-color: #ff7700;
+}
+
+.HomeMenuItem {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
+  text-decoration: none;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.socialLink {
+  margin-left: 0.5rem;
+  font-size: 1.8rem;
 }
 
 .HomeHeroContainer {
