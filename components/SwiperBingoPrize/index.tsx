@@ -57,6 +57,38 @@ export default function SwiperBingoPrize() {
               height={handleImageSize().height}
             />
           </SwiperSlide>
+          <SwiperSlide className={styles.SwiperSwiperSlide}>
+            <Image
+              src="/images/imagem-premio-6.jpeg"
+              alt="Imagens do premio do bingo"
+              width={handleImageSize().width}
+              height={handleImageSize().height}
+            />
+          </SwiperSlide>
+          <SwiperSlide className={styles.SwiperSwiperSlide}>
+            <Image
+              src="/images/imagem-premio-7.jpeg"
+              alt="Imagens do premio do bingo"
+              width={handleImageSize().width}
+              height={handleImageSize().height}
+            />
+          </SwiperSlide>
+          <SwiperSlide className={styles.SwiperSwiperSlide}>
+            <Image
+              src="/images/imagem-premio-8.jpeg"
+              alt="Imagens do premio do bingo"
+              width={handleImageSize().width}
+              height={handleImageSize().height}
+            />
+          </SwiperSlide>
+          <SwiperSlide className={styles.SwiperSwiperSlide}>
+            <Image
+              src="/images/imagem-premio-9.jpeg"
+              alt="Imagens do premio do bingo"
+              width={handleImageSize().width}
+              height={handleImageSize().height}
+            />
+          </SwiperSlide>
         </Swiper>
       </div>
     </div>
