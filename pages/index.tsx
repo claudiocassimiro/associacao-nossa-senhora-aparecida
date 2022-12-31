@@ -102,7 +102,7 @@ export default function Home() {
         ) : null}
         <div className={styles.HomeHeroContainer}>
           <h1 className={styles.HomeHeroTitle}>
-            Venha Participar do Nosso Bingo Beneficente!
+            Concorra a uma Rural Super Equipada ou 80 Mil Reais no Pix!
           </h1>
           <BuyYourCardButton />
         </div>
