@@ -11,6 +11,12 @@ export default function SwiperAboutUs() {
   return (
     <div className={styles.SwiperAboutUsContainer}>
       <h2 className={styles.SwiperAboutUsTitle}>Nossas Ações</h2>
+      <div className={styles.SwiperAboutUsContainerCharacteristics}>
+        <p className={styles.SwiperAboutUsText}>
+          Contribua com a realização da 16ª festa das Crianças. Desde o inicio
+          deste projeto mais de 100 Mil Crianças já foram impactadas.
+        </p>
+      </div>
       <div className={styles.SwiperSwiperContainer}>
         <Swiper
           navigation={true}
