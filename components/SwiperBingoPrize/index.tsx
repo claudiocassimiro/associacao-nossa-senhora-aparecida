@@ -13,7 +13,7 @@ export default function SwiperBingoPrize() {
       <h2 className={styles.SwiperBingoPrizeTitle}>Prêmio do Bingo</h2>
       <div className={styles.SwiperBingoPrizeContainerCharacteristics}>
         <p className={styles.SwiperBingoPrizeText}>Rural Super Equipada</p>
-        <p className={styles.SwiperBingoPrizeText}>Ou 90 Mil Reais no Pix!</p>
+        <p className={styles.SwiperBingoPrizeText}>Ou 80 Mil Reais no Pix!</p>
       </div>
       <div className={styles.SwiperSwiperContainer}>
         <Swiper
